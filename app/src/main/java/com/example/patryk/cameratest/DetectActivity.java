@@ -53,10 +53,10 @@ public class DetectActivity extends AppCompatActivity {
 //    private static final int INPUT_SIZE = 224;
 //    private boolean logStats = false;
 
-    static {
-        //System.load("src/main/jniLibs/armeabi-v7a/libtensorflow_inference.so");
-        System.loadLibrary("libtensorflow_inference");
-    }
+//    static {
+//        //System.load("src/main/jniLibs/armeabi-v7a/libtensorflow_inference.so");
+////        System.loadLibrary("libtensorflow_inference");
+//    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
